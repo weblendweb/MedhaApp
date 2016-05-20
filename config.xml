@@ -2,17 +2,17 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.medhaeducation.app"
+        id        = "com.moodle.moodlemobile"
         versionCode = "2012"
- +      version   = "3.1.0">
-    <name>Medha Mobile</name>
+        version   = "3.1.0">
+    <name>Moodle Mobile</name>
 
     <description>
-        Medha Mobile official app
+        Moodle Mobile official app
     </description>
 
-    <author href="http://medhaeducation.com" email="medhaepistle@gmail.com">
-        Medha Education Pvt Ltd
+    <author href="http://moodle.com" email="mobile@moodle.com">
+        Moodle Pty Ltd
     </author>
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
@@ -117,8 +117,8 @@
     <gap:plugin name="cordova-plugin-splashscreen" source="npm" />
 
     <gap:plugin name="phonegap-plugin-push" source="npm" >
- +        <param name="SENDER_ID" value="694767596569" />
- +    </gap:plugin>
+        <param name="SENDER_ID" value="694767596569" />
+    </gap:plugin>
     <gap:plugin name="net.tunts.webintent" />
     <gap:plugin name="cordova-plugin-customurlscheme" source="npm">
         <param name="URL_SCHEME" value="moodlemobile" />
